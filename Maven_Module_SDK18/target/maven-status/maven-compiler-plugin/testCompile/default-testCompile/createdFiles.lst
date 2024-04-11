@@ -1,0 +1,14 @@
+helpers\ImageManager.class
+pages\Complete.class
+pages\LoginPage.class
+core\BasePage.class
+core\BaseTest.class
+tests\FullCaseTest.class
+helpers\Custom.class
+pages\YourInfo.class
+readProperty\ConfigProvider.class
+readProperty\PropertyTest.class
+helpers\TestListener.class
+pages\YourCart.class
+pages\Overview.class
+pages\Products.class

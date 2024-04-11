@@ -12,6 +12,9 @@ public interface ConfigProvider {
     }
 
     String URL = readConfig().getString("url");
+    String FIRSTNAME = readConfig().getString("userParams.universalNameAndZip.firstName");
+    String LASTNAME = readConfig().getString("userParams.universalNameAndZip.lastName");
+    String ZIP = readConfig().getString("userParams.universalNameAndZip.zip");
     String USER_1_NAME = readConfig().getString("userParams.user1.name");
     String USER_1_PASS = readConfig().getString("userParams.user1.password");
 
