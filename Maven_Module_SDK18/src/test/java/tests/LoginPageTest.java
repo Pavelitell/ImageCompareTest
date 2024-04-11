@@ -11,7 +11,7 @@ public class LoginPageTest extends BaseTest {
 
     LoginPage loginPage = new LoginPage();
     @Test
-    public void logIn(){
+    protected void logIn(){
         loginPage.signIn(USER_2_NAME,USER_2_PASS);
     }
 }
