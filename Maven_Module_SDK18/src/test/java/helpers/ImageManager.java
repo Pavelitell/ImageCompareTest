@@ -74,7 +74,11 @@ public class ImageManager extends BaseTest {
                 e.printStackTrace();
             }
         }
+<<<<<<< HEAD
     public static void compareImage(int actualInt, int expectedInt,String packageName,String fileName ){
+=======
+public static void compareImage(int actualInt, int expectedInt,String packageName,String fileName ){
+>>>>>>> c406fc3d822730a96593a339677318407b2225f8
     BufferedImage expectedImage = ImageComparisonUtil.readImageFromResources("C:\\Users\\kras8\\OneDrive\\Рабочий стол\\AQA\\ImageManager\\"+ packageName+"\\" +(fileName)+(actualInt)+".png");
     BufferedImage actualImage = ImageComparisonUtil.readImageFromResources("C:\\Users\\kras8\\OneDrive\\Рабочий стол\\AQA\\ImageManager\\"+ packageName +"\\"+ (fileName)+(expectedInt)+".png");
 
